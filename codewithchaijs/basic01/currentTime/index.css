@@ -1,0 +1,41 @@
+body{
+	background-color: #212121;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.timer-container{
+ border: 1px solid #fff;
+ height:250px;
+ width: 300px;
+ text-align: center;
+ padding: 10px;
+ display: flex;
+ flex-direction: column;
+border-radius: 15px;
+ 
+}
+.heading{
+	font-family: serif;
+	font-style: italic;
+	font-size: 30px;
+	font-weight: 500;
+	color: #f2d1d1;
+}
+#clock{
+	height: 100px;
+	width: 180px;
+	border: 1px solid burlywood;
+	align-self: center;
+	background-color:burlywood;
+	color: #080707;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	font-family: serif;
+	font-weight: 500;
+	padding:5px;
+	border-radius: 10px;
+}

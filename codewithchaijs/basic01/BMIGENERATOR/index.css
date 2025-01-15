@@ -1,0 +1,53 @@
+body{
+	background-color: #212121;
+	text-align: center;
+}
+.bmi-container{
+	margin-top: 150px;
+	margin-left:450px ;
+	margin-right: 450px;
+	/* padding:20px */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #fff;
+
+}
+.heading{
+	font-family: serif;
+	font-size: 26px;
+	font-weight: 500;
+	color: #fff;
+}
+form{
+	font-family: serif;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+.button{
+	padding: 10px;
+	background-color: rgb(69, 69, 223);
+	color: #fff;
+	font-family: serif;
+	font-size: 18px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+.measurment-indicators{
+	border: 1px solid #b1afaf;
+	margin: 30px;
+	padding: 30px;
+	background-color: rgb(141, 179, 179);
+	border-radius: 20px;
+	color: #020913;
+}
+#result{
+	font-family: serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+}
