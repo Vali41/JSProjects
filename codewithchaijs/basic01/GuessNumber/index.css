@@ -1,0 +1,76 @@
+body{
+	background-color: #212121;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#wrapper{
+	height: 500px;
+	padding: 35px;
+	background-color: rgb(98, 134, 122);
+	border-radius: 15px;
+	font-family: "Roboto";
+	color: #ffffff;
+	line-height:1.2;
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#guess{
+	text-align: center;
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+.guessField{
+	font-family: serif;
+	font-weight: 400;
+	font-size: 24px;
+	width: 120px;
+	height: 25px;
+	align-self: center;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 5px;
+	text-align: center;
+}
+.button{
+	height: 28px;
+	width: 120px;
+	align-self: center;
+	padding: 2px;
+	border: none;
+	margin: 5px;
+	outline: none;
+	background-color: #212121;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: serif;
+}
+.guesses{
+	background-color: aliceblue;
+}
+.output{
+	font-family: serif;
+	color: rgb(117, 4, 4);
+	font-style: italic;
+	font-size: 24px;
+	font-weight:400;
+}
+.winner{
+	font-family: "Roboto";
+	color: rgba(4, 22, 219, 0.966);
+	font-style: italic;
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	
+	padding:5px
+}
