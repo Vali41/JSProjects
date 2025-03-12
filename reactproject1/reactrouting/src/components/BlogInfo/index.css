@@ -1,0 +1,6 @@
+.blog-info-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}

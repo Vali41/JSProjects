@@ -1,0 +1,45 @@
+.blog-element-container{
+		display: flex;
+		flex-direction: row;
+		padding: 30px;
+		border: 1px solid #e0e0e0;
+		margin: 30px;
+		border-radius: 30px;
+}
+.blog-image{
+		height: 250px;
+		width: 400px;
+		border-radius: 20px;
+}
+.blog-info{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		padding: 20px;
+}
+.blog-title{
+		font-size: 20px;
+		font-weight: bold;
+		font-family: 'Roboto', sans-serif;
+}
+.topic{
+		font-size: 15px;
+		font-family: 'Roboto', sans-serif;
+}
+.author-info{
+		display: flex;
+		flex-direction: row;
+		font-family: 'Roboto', sans-serif;
+		align-items: center;
+}
+.author-image{
+		height: 50px;
+		width: 50px;
+		border-radius: 50%;
+}
+.author-name{
+		font-size: 15px;
+
+		margin-left: 10px;
+		font-family: 'Roboto', sans-serif;
+}

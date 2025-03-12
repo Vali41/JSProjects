@@ -1,0 +1,33 @@
+.user-info{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+.user-info-avatar{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.user-info-name{
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 10px;
+	font-family: 'Roboto', sans-serif;
+}
+.user-info-designation{
+	font-size: 18px;
+	margin-top: 10px;
+	font-weight:700;
+	font-family: 'Roboto', sans-serif;
+	color: #0226f4;
+}
+.user-info-description{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin-top: 10px;
+	
+	text-align: center;
+}

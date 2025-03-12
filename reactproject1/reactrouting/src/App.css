@@ -1,0 +1,12 @@
+body{
+	margin: 0;
+	padding: 50px;
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+}
+.app-container{
+	min-width: 90vw;
+	min-height: 100vh;
+	border: 2px solid #b20e0e;
+	border-radius: 20px;
+}
